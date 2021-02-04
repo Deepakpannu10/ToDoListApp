@@ -4,13 +4,16 @@
   "description": "This is version 1 of To Do List",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Deepak Pannu",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "mongoose": "^5.11.14"
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.14",
+    "nodemon": "^2.0.7"
   }
 }
